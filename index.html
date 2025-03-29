@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Managym - El gimnasio que transforma tu vida." />
+        <meta name="author" content="Managym" />
+        <title>Managym - Transforma tu Cuerpo</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-dark text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#page-top">MANAGYM</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" 
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    Menú
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#portfolio">Servicios</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#horario">Horario</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-white" href="#about">Sobre Nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="masthead text-white text-center d-flex align-items-center justify-content-center" style="position: relative; height: 100vh; background: url('assets/victor-freitas-WvDYdXDzkhs-unsplash.jpg') no-repeat center center/cover;">
+            <!-- Superposición oscura -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+            
+            <div class="container position-relative">
+                <h1 class="masthead-heading text-uppercase mb-3">Managym - Transforma Tu Cuerpo</h1>
+                <p class="masthead-subheading font-weight-light">¡Únete hoy y empieza tu cambio!</p>
+                <a class="btn btn-lg btn-light mt-3" href="#services">Descubre Más</a>
+            </div>
+        </header>
+        
+
+
+<!-- Sección de Servicios del Gimnasio -->
+<section class="page-section portfolio" id="portfolio">
+    
+<style>
+.portfolio-item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+.portfolio-item:hover .text-overlay {
+    opacity: 0;
+}
+</style>
+
+    <div class="container">
+        <!-- Título de la sección -->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nuestros Servicios</h2>
+        
+        <!-- Divisor de iconos -->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-dumbbell"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Grid de Servicios -->
+        <div class="row justify-content-center">
+            
+            <!-- Entrenamiento Personalizado -->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/personal-training.jpg" alt="Entrenamiento Personalizado" />
+                    <div class="text-overlay">Entrenamiento Personalizado</div>
+                </div>
+            </div>
+            
+            <!-- Clases Grupales -->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/group-classes.jpg" alt="Clases Grupales" />
+                    <div class="text-overlay">Clases Grupales</div>
+                </div>
+            </div>
+            
+            <!-- Nutrición Deportiva -->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/nutrition.jpg" alt="Nutrición Deportiva" />
+                    <div class="text-overlay">Nutrición Deportiva</div>
+                </div>
+            </div>
+            
+            <!-- Área de Pesas -->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/weights.jpg" alt="Área de Pesas" />
+                    <div class="text-overlay">Área de Pesas</div>
+                </div>
+            </div>
+            
+            <!-- Planes y Membresías -->
+            <div class="col-md-6 col-lg-4 mb-5">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="assets/img/portfolio/membership.jpg" alt="Planes y Membresías" />
+                    <div class="text-overlay">Planes y Membresías</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Horario Section -->
+<section class="page-section bg-secondary text-white mb-0" id="horario">
+    <div class="container">
+        <!-- Horario Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Horario</h2>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-clock"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Horario Section Content -->
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <ul class="list-group text-center text-dark">
+                    <li class="list-group-item bg-light">Sábado: 6:00 AM - 10:00 AM | 3:00 PM - 6:00 PM</li>
+                    <li class="list-group-item bg-light">Domingo: 6:00 AM - 10:00 AM | 3:00 PM - 7:00 PM</li>
+                    <li class="list-group-item bg-light">Lunes: 5:00 AM - 10:00 AM | 3:00 PM - 9:00 PM</li>
+                    <li class="list-group-item bg-light">Martes: 5:00 AM - 10:00 AM | 3:00 PM - 9:00 PM</li>
+                    <li class="list-group-item bg-light">Miércoles: 5:00 AM - 10:00 AM | 3:00 PM - 9:00 PM</li>
+                    <li class="list-group-item bg-light">Jueves: 5:00 AM - 10:00 AM | 3:00 PM - 9:00 PM</li>
+                    <li class="list-group-item bg-light">Viernes: 5:00 AM - 10:00 AM | 3:00 PM - 9:00 PM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- About Section-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">Sobre Nosotros</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-dumbbell"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="row">
+            <div class="col-lg-4 ms-auto">
+                <p class="lead">
+                    En nuestro gimnasio, te ayudamos a alcanzar tus metas fitness con equipos de última tecnología y entrenadores profesionales. Contamos con clases dirigidas, zona de pesas y entrenamiento funcional.
+                </p>
+            </div>
+            <div class="col-lg-4 me-auto">
+                <p class="lead">
+                    Nos enfocamos en brindarte un ambiente motivador y seguro. Sin importar tu nivel de experiencia, aquí encontrarás el apoyo necesario para mejorar tu salud y bienestar.
+                </p>
+            </div>
+        </div>
+        <!-- About Section Button-->
+    </div>
+</section>
+
+
+
+
+<!-- Footer-->
+<footer class="footer text-center bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Footer Location-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Ubicación</h4>
+                <p class="lead mb-0">
+                    Montería, Córdoba<br />
+                    Barrio Panzenu Manzana Y Lote 7 Frente al colegio panzenu.
+                </p>
+            </div>
+
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h4 class="text-uppercase mb-4">Síguenos en Redes Sociales</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/managym_gim" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/p/Managym-100093051510131/?locale=es_LA" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.tiktok.com/" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://wa.me/+573144193430" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <!-- Footer About Text-->
+            <div class="col-lg-4">
+                <h4 class="text-uppercase mb-4">Sobre Nosotros</h4>
+                <p class="lead mb-0">
+                    Somos más que un gimnasio, somos una comunidad comprometida con tu bienestar y rendimiento físico. ¡Únete y transforma tu vida con nosotros!
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer Copyright-->
+        <div class="text-center mt-4">
+            <small>&copy; 2025 Tu Gimnasio. Todos los derechos reservados.</small>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Portfolio Modal 1: Entrenamiento Personalizado -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Entrenamiento Personalizado</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-dumbbell"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/personal-training.jpg" alt="Entrenamiento Personalizado" />
+                            <p class="mb-4">
+                                Obtén un plan de entrenamiento diseñado para ti, con el acompañamiento de nuestros entrenadores certificados. Mejora tu rendimiento y alcanza tus objetivos de forma eficiente.
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 2: Clases Grupales -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Clases Grupales</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-users"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/group-classes.jpg" alt="Clases Grupales" />
+                            <p class="mb-4">
+                                Participa en nuestras clases de Zumba, Spinning, Yoga, y más. ¡Diviértete mientras te ejercitas en un ambiente motivador!
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 3: Nutrición Deportiva -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Nutrición Deportiva</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-apple-alt"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/nutrition.jpg" alt="Nutrición Deportiva" />
+                            <p class="mb-4">
+                                Obtén asesoría nutricional personalizada para mejorar tu rendimiento físico y lograr tus metas de manera saludable.
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 4: Área de Pesas -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Área de Pesas</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-weight-hanging"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/weights.jpg" alt="Área de Pesas" />
+                            <p class="mb-4">
+                                Nuestra área de pesas está equipada con máquinas de última tecnología para ayudarte a fortalecer y esculpir tu cuerpo.
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 5: Planes y Membresías -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Planes y Membresías</h2>
+                            <div class="divider-custom">
+                                <div class="divider-custom-line"></div>
+                                <div class="divider-custom-icon"><i class="fas fa-credit-card"></i></div>
+                                <div class="divider-custom-line"></div>
+                            </div>
+                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/membership.jpg" alt="Planes y Membresías" />
+                            <p class="mb-4">
+                                Contamos con planes flexibles que se adaptan a tu estilo de vida. ¡Elige el que mejor se ajuste a ti y comienza hoy mismo!
+                            </p>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!--- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+    </body>
+</html>
